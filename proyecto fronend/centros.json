@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Clínica Vida Saludable",
+    "categoria": "Centro Médico General",
+    "direccion": "Av. Salud 123, Ciudad",
+    "telefono": "+56 2 2345 6789",
+    "horario": "Lun - Vie, 08:00 - 18:00",
+    "sitio": "https://www.clinicavidasaludable.cl"
+  },
+  {
+    "nombre": "Hospital Central",
+    "categoria": "Hospital Público",
+    "direccion": "Calle Central 456, Ciudad",
+    "telefono": "+56 2 3456 7890",
+    "horario": "24/7 Atención de urgencias",
+    "sitio": "https://www.hospitalcentral.cl"
+  },
+  {
+    "nombre": "Centro de Rehabilitación ProSalud",
+    "categoria": "Rehabilitación Física",
+    "direccion": "Av. Terapia 789, Ciudad",
+    "telefono": "+56 2 4567 8901",
+    "horario": "Lun - Sáb, 09:00 - 20:00",
+    "sitio": "https://www.prosaludrehab.cl"
+  }
+]

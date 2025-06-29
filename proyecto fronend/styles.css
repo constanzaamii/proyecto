@@ -1,0 +1,136 @@
+
+:root {
+  --yellow-1: #ffffcc;
+  --yellow-2: #fef97f;
+  --yellow-3: #fcfd96;
+  --blue-1: #2196f3;
+  --blue-2: #6bbef9;
+  --bg-light: #f5faff;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: #1a1a1a;
+}
+
+.navbar {
+  background-color: var(--blue-2);
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: 600;
+}
+
+.main-title {
+  background-color: var(--yellow-1);
+  padding: 3rem 1rem;
+  border-bottom: 3px solid var(--blue-1);
+}
+
+.main-title h1 {
+  color: var(--blue-1);
+  font-size: 2.8rem;
+}
+
+.welcome-box, .activity-box {
+  background-color: var(--yellow-2);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.welcome-box h2, .activity-box h3 {
+  color: var(--blue-1);
+}
+
+.btn-outline-primary {
+  border-color: var(--blue-1);
+  color: var(--blue-1);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--blue-1);
+  color: white;
+}
+
+.btn-primary {
+  background-color: var(--blue-1);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--blue-2);
+}
+/* estilos.css */
+
+/* Fondo azul personalizado */
+.bg-custom {
+  background-color: #002244; /* azul oscuro elegante */
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.footer-custom {
+  background-color: #002244; /* azul marino */
+  padding-bottom: 30px;
+}
+
+.footer-custom h5 {
+  margin-bottom: 15px;
+}
+
+.footer-custom .footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.footer-custom .footer-link:hover {
+  color: #ffc107;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #ffc107;
+  transform: scale(1.2);
+}
+
+button.btn-warning:hover {
+  background-color: #e0ac00;
+}
+   body {
+      background: #f9f9f9;
+      color: #333;
+    }
+    .card-container {
+      margin-top: 2rem;
+    }
+    .card {
+      box-shadow: 0 0 15px rgba(33, 150, 243, 0.2);
+      border-radius: 8px;
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .navbar {
+      background-color: #2196f3;
+    }
+    .navbar-brand {
+      font-weight: 700;
+      color: white !important;
+    }
